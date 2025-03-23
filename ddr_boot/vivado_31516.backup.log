@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jul 22 03:36:13 2024
+# Process ID: 31516
+# Current directory: D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13148 D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.xpr
+# Log file: D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/vivado.log
+# Journal file: D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 878.266 ; gain = 190.414
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 22 03:40:15 2024...

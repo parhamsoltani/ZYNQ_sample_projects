@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\FSBL_1\Debug\FSBL_1.elf
+	D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\design_1_wrapper_hw_platform_1\design_1_wrapper.bit
+	D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\EMIO\Debug\EMIO.elf
+}

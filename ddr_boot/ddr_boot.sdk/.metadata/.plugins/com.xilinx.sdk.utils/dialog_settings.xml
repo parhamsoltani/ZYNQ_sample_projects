@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\design_1_wrapper_hw_platform_1" key="bootgen_files_selection"/>
+	<item value="D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\EMIO\Debug" key="tcf_debug_app_selection"/>
+	<item value="D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\EMIO\bootimage" key="zynq_flash_files_selection"/>
+	<item value="D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\EMIO\bootimage" key="last_stored_selection"/>
+</section>

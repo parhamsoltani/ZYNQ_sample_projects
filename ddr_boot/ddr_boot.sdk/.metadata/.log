@@ -1,0 +1,444 @@
+!SESSION 2024-07-22 13:13:54.074 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk
+
+This is a continuation of log file D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\.metadata\.bak_0.log
+Created Time: 2024-07-22 16:42:59.780
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.780
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT Command: [::hsi::utils::opensw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT command with result: [::hsi::utils::opensw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.790
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app zynq_fsbl -sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:42:59.800
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app zynq_fsbl -sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.181
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.181
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.181
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.181
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.461
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.461
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, xilffs]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.461
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.461
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"xilffs": "4.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.461
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.471
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.5",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.9",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.5",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.9",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.7",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.7",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.471
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.471
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, xilffs]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.471
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.471
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.491
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.491
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.491
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.491
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.491
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.501
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.501
+!MESSAGE XSCT Command: [::hsi::utils::opensw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.502
+!MESSAGE XSCT command with result: [::hsi::utils::opensw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:01.502
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss -app zynq_fsbl -processor ps7_cortexa9_0 -os standalone -dir D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/FSBL_1/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:07.038
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss -app zynq_fsbl -processor ps7_cortexa9_0 -os standalone -dir D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/FSBL_1/src], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-07-22 16:43:07.278
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:539)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:36)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:72)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:97)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:294)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:45)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:107)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:120)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.access$2(LscriptEditor.java:1)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:189)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:43:07.852
+!MESSAGE Indexed 'FSBL_1' (11 sources, 61 headers) in 0.524 sec: 1,775 declarations; 7,671 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-07-22 16:43:08.956
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:539)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:36)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:72)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:97)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:294)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:45)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:107)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:120)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.access$2(LscriptEditor.java:1)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:189)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-07-22 16:43:12.008
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:539)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:36)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:72)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:97)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:294)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:45)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:107)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:120)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.access$2(LscriptEditor.java:1)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:189)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:17.521
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:17.521
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:17.521
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:17.521
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:17.521
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:17.521
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:20.623
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:20.623
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:20.633
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:20.633
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:20.633
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 16:43:20.633
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/standalone_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-07-22 18:21:24.593
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:14.255
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:14.265
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:14.265
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:17.270
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:20.277
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:23.280
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:23.280
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:23.471
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:26.285
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:26.285
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:26.285
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:29.287
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:29.297
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:32.293
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-36
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:32.303
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:35.306
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:35.306
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:38.310
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:41.320
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-07-22 19:26:44.323
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-44
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-07-22 19:30:06.783
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-07-22 19:47:21.003
+!MESSAGE Executed Webtalk command

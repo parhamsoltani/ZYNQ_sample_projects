@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jul 16 17:24:15 2024
+# Process ID: 8036
+# Current directory: E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22432 E:\Projects\ZYNQ_Taksun\PRJ_2\usart_gpio\usart_gpio.xpr
+# Log file: E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/vivado.log
+# Journal file: E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.srcs/sources_1/bd/design_1/design_1.bd}
+set_property -dict [list CONFIG.PCW_USE_M_AXI_GP0 {0} CONFIG.PCW_EN_CLK0_PORT {0} CONFIG.PCW_EN_RST0_PORT {0}] [get_bd_cells processing_system7_0]
+set_property -dict [list CONFIG.PCW_UIPARAM_DDR_ENABLE {0} CONFIG.PCW_SD0_PERIPHERAL_ENABLE {1} CONFIG.PCW_SD0_SD0_IO {MIO 40 .. 45} CONFIG.PCW_UART0_PERIPHERAL_ENABLE {1} CONFIG.PCW_UART0_UART0_IO {MIO 46 .. 47} CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {1} CONFIG.PCW_GPIO_MIO_GPIO_IO {MIO}] [get_bd_cells processing_system7_0]
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+make_wrapper -files [get_files E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+validate_bd_design -force
+open_bd_design {E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.srcs/sources_1/bd/design_1/design_1.bd}
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+file mkdir E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk
+file copy -force E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.runs/impl_1/design_1_wrapper.sysdef E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk -hwspec E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk/design_1_wrapper.hdf

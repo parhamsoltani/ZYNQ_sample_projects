@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Mar 14 21:05:10 2025
+# Process ID: 21536
+# Current directory: D:/Projects/ZYNQ_Taksun/PRJ_7/DMA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25760 D:\Projects\ZYNQ_Taksun\PRJ_7\DMA\DMA.xpr
+# Log file: D:/Projects/ZYNQ_Taksun/PRJ_7/DMA/vivado.log
+# Journal file: D:/Projects/ZYNQ_Taksun/PRJ_7/DMA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/ZYNQ_Taksun/PRJ_7/DMA/DMA.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 1042.762 ; gain = 368.316
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 14 21:36:31 2025...

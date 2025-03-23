@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+################################################################################
+#
+#  TaksunTech for AlinX Definition File
+#  https://taksuntech.ir
+#  Saeid Alghasi
+#  Taksuntech@gmail.com
+#
+################################################################################-->
+
+<part_info part_name="xc7z020clg400-2">
+	<pins>
+		<pin index="0"  name="keys_tri_i_0" iostandard="LVCMOS33" loc="R19" /><!-- IO_B34_0   -->
+		<pin index="1"  name="keys_tri_i_1" iostandard="LVCMOS33" loc="T19" /><!-- IO_B34_25  -->
+		<pin index="2"  name="keys_tri_i_2" iostandard="LVCMOS33" loc="G14" /><!-- IO_B35_0   -->
+		<pin index="3"  name="keys_tri_i_3" iostandard="LVCMOS33" loc="J15" /><!-- IO_B35_25  -->
+		<pin index="4"  name="leds_tri_o_0"   iostandard="LVCMOS33" loc="J14" /><!-- IO_B34_LN6 -->
+		<pin index="5"  name="leds_tri_o_1"   iostandard="LVCMOS33" loc="K14" /><!-- IO_B34_LP7 -->
+		<pin index="6"  name="leds_tri_o_2"   iostandard="LVCMOS33" loc="J18" /><!-- IO_B34_LN7 -->
+		<pin index="7"  name="leds_tri_o_3"   iostandard="LVCMOS33" loc="H18" /><!-- IO_B34_LN7 -->
+		<pin index="8"  name="buzzer_tri_o_0"    iostandard="LVCMOS33" loc="P18" /><!-- BP         -->
+	    <pin index="9"  name ="i2c0_scl_i"       iostandard="LVCMOS33" loc="P16" /><!-- I2C0_SCL   -->
+	    <pin index="10"  name ="i2c0_sda_i"       iostandard="LVCMOS33" loc="P15" /><!-- I2C0_SDA   -->
+		<pin index="11" name="mems_temp_intn"    iostandard="LVCMOS33" loc="N17" /><!-- MEMS_INTn  (wired-or for LM75 and Sil902x)-->
+		<pin index="12" name="hdmi_int"          iostandard="LVCMOS33" loc="W19" /><!-- HDMI_INT  -->
+		<pin index="13" name ="SYSCLK" iostandard="DIFF_SSTL15" loc="R19"/>
+
+	</pins>
+</part_info>

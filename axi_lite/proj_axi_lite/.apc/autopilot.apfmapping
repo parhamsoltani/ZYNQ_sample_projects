@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="example.cpp" path="D:\Projects\ZYNQ_Taksun\PRJ_6\axi_lite\example.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="example_test.cpp" path="D:\Projects\ZYNQ_Taksun\PRJ_6\axi_lite\example_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

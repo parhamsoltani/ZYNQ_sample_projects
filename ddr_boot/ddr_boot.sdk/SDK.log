@@ -1,0 +1,46 @@
+02:15:44 INFO  : Registering command handlers for SDK TCF services
+02:15:45 INFO  : Launching XSCT server: xsct.bat -interactive E:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\temp_xsdb_launch_script.tcl
+02:15:48 INFO  : XSCT server has started successfully.
+02:15:48 INFO  : Successfully done setting XSCT server connection channel  
+02:15:51 INFO  : Successfully done setting SDK workspace  
+02:15:51 INFO  : Processing command line option -hwspec E:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf.
+04:36:45 INFO  : Registering command handlers for SDK TCF services
+04:36:45 INFO  : Launching XSCT server: xsct.bat -interactive D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\temp_xsdb_launch_script.tcl
+04:36:48 INFO  : XSCT server has started successfully.
+04:36:48 INFO  : Successfully done setting XSCT server connection channel  
+04:36:48 INFO  : Successfully done setting SDK workspace  
+04:36:48 INFO  : Processing command line option -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf.
+04:38:30 INFO  : Launching XSCT server: xsct.bat -interactive D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\temp_xsdb_launch_script.tcl
+04:38:32 INFO  : XSCT server has started successfully.
+04:38:35 INFO  : Successfully done setting XSCT server connection channel  
+04:38:35 INFO  : Successfully done setting SDK workspace  
+04:38:37 INFO  : Registering command handlers for SDK TCF services
+04:38:37 INFO  : Processing command line option -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf.
+04:38:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+13:14:12 INFO  : Launching XSCT server: xsct.bat -interactive D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\temp_xsdb_launch_script.tcl
+13:14:15 INFO  : XSCT server has started successfully.
+13:14:21 INFO  : Successfully done setting XSCT server connection channel  
+13:14:21 INFO  : Successfully done setting SDK workspace  
+13:14:23 INFO  : Registering command handlers for SDK TCF services
+13:14:24 INFO  : Processing command line option -hwspec D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf.
+13:14:24 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+13:14:25 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1721597719822,  Project:1721598311947
+13:14:25 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf.
+13:14:25 INFO  : Copied contents of D:/Projects/ZYNQ_Taksun/PRJ_3/ddr_boot/ddr_boot.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+13:14:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:14:28 INFO  : Clearing existing target manager status.
+13:14:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:14:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:05:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:05:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+16:33:22 INFO  : Invoking Bootgen: bootgen -image EMIO.bif -arch zynq -o D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\EMIO\bootimage\BOOT.bin
+16:33:22 INFO  : Creating new bif file D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\EMIO\bootimage\EMIO.bif
+16:33:24 INFO  : Bootgen command execution is done.
+18:21:24 INFO  : Invoking Bootgen: bootgen -image FSBL_1.bif -arch zynq -o D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\FSBL_1\bootimage\BOOT.bin
+18:21:24 INFO  : Creating new bif file D:\Projects\ZYNQ_Taksun\PRJ_3\ddr_boot\ddr_boot.sdk\FSBL_1\bootimage\FSBL_1.bif
+18:21:26 INFO  : Bootgen command execution is done.
+19:26:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:26:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.

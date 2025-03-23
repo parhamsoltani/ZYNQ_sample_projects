@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Fri Jul 19 18:26:35 2024
+# Process ID: 19892
+# Current directory: E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk/webtalk/webtalk.log
+# Journal file: E:/Projects/ZYNQ_Taksun/PRJ_2/usart_gpio/usart_gpio.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

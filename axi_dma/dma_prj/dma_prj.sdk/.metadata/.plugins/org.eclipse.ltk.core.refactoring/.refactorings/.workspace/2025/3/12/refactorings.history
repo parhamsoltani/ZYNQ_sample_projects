@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;dma_test/src/xaxidma_example_sg_poll.c&apos;" deleteContents="false" description="Delete resource &apos;dma_test/src/xaxidma_example_sg_poll.c&apos;" element1="/dma_test/src/xaxidma_example_sg_poll.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1742247796543"/>
+</session>

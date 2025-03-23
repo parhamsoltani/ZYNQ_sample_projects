@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports {Res_0[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Res_0[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Res_0[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Res_0[0]}]
+set_property PACKAGE_PIN V18 [get_ports {Res_0[3]}]
+set_property PACKAGE_PIN W18 [get_ports {Res_0[2]}]
+set_property PACKAGE_PIN W19 [get_ports {Res_0[1]}]
+set_property PACKAGE_PIN V20 [get_ports {Res_0[0]}]
